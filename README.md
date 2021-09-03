@@ -42,7 +42,7 @@ Initial ARIMA and SARIMA modeling performed on one postcode to establish sensibl
 
 Pmdarima's auto_arima function was therefore utilised to find the best parameters for each postcode dataset. An example of model performance vs test data for postcode HA5 can be seen below.
 
-![HA5_test.PNG](./data/HA5_test.PNG)
+![HA5_test.PNG](./Images/HA5_test.PNG)
 
 ## Results
 
@@ -52,7 +52,7 @@ For example an investor who does not care about the money whatsoever may just ch
 
 Summary tables can be tailored to suit, the summary table below is displaying the top 5 postcodes based on P50 (middle of confidence interval) return on investment.
 
-![HA5_forecast.PNG](./data/HA5_forecast.PNG)
+![HA5_forecast.PNG](./Images/HA5_forecast.PNG)
 
 So where are these top 5? can we see any pattern?
 
