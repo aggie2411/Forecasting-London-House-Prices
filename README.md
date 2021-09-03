@@ -76,12 +76,13 @@ Secondly the government introduced a Stamp Duty (Tax) holiday which, whilst savi
 
 Forecasting the rolling average with 12 month window helped smooth out some of these trends, but for events that last longer than one year like COVID-19 has, it can be problematic for forecasting.
 
-As time series modelling is so sensitive to recent data, it is imperative that these models be updated regularly (at least quarterly) to ensure modelling errors remain small. 
+As time series modelling is so sensitive to recent data, it is imperative that these models be updated regularly (at least quarterly) with recent data to ensure modelling errors remain small. 
 
 It may be useful to introduce some exogenous data into the models:
 - Bank of England interest rates
 - COVID-19 infection rates
 - Lockdown events
+- Number of people returning to office work
 
 
 
