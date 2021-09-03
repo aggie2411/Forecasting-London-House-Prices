@@ -13,4 +13,14 @@ As with any large city however, there is diversity in the housing stock meaning 
 
 ## House Price by Borough
 
-![boroughs.gif](./Images/boroughs.gif)
+![borough_prices.PNG](./Images/borough_prices.PNG)
+
+It is clear that there is a premium in Central Boroughs, with Kensington and Chelsea averaging over £1million. There are however, affordable Boroughs if you are willing to commute. 
+
+## House Price History
+
+![price_history.png](./Images/price_history.png)
+
+
+
+
