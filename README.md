@@ -31,7 +31,7 @@ It is clear that there is a premium in Central Boroughs, with Kensington and Che
 
 ## House Price History
 
-Have all the house prices behaved in a similar fashion? Looking at the plot it appears so, although there certainly seems to be a ripple effect where changes both positive and negative are of a higher magnitude as you move towards the pricier central boroughs. 
+Have all the house prices behaved in a similar fashion? Looking at the plot it appears so, although there certainly seems to be a ripple effect where changes both positive and negative are of a higher magnitude as you move towards the pricier central Boroughs. 
 
 ![price_history.png](./Images/price_history.png)
 
@@ -42,7 +42,9 @@ Initial ARIMA and SARIMA modeling performed on one postcode to establish sensibl
 
 Pmdarima's auto_arima function was therefore utilised to find the best parameters for each postcode dataset. An example of model performance vs test data for postcode HA5 can be seen below.
 
-![HA5_test.PNG](./Images/HA5_test.PNG)
+![HA5_test.png](./Images/HA5_test.png)
+
+There has clearly been a black swan event in 2020 which of course was COVID-19. This has impacted house prices in Boroughs differently across London, as such there errors on some postcode models are higher than would be expected, this is difficult to overcome and would be improved with more and more recent data being added. This is of course a learning, and perhaps an indication of the type of exogoneous data that could be incorporated into a model. 
 
 ## Results
 
@@ -52,7 +54,9 @@ For example an investor who does not care about the money whatsoever may just ch
 
 Summary tables can be tailored to suit, the summary table below is displaying the top 5 postcodes based on P50 (middle of confidence interval) return on investment.
 
-![HA5_forecast.PNG](./Images/HA5_forecast.PNG)
+
+
+![HA5_forecast.png](./Images/HA5_forecast.png)
 
 So where are these top 5? can we see any pattern?
 
@@ -60,6 +64,28 @@ So where are these top 5? can we see any pattern?
 
 With the exception of one the other 4 in the top 5 appear to be outside the city centre.
 This follows a pattern observed during lockdown where there has been a premium on outdoor space and extra rooms for offices whilst working from home. Perhaps this trend could be reversed in the near future as we all rush back to cities?
+
+## Conclusions & Recommendations
+
+- Central and Expensive Boroughs seem to be subject to biggest fluctuations in price
+- 4 of the top 5 postcodes with the highest rate of returns are outside what would be considered Central London
+- 4 of the bottom 5 postcodes for rate of return are in central areas and/or close to financial hubs (The City of London or Canary Wharf)
+
+There have been multiple things that have occurred in 2020 and 2021 which make house price forecasting challenging, firstly COVID-19 pandemic and its impact on people's working routines and their desire for more space.
+Secondly the government introduced a Stamp Duty (Tax) holiday which, whilst saving money on taxes, actually raised asking prices of homes as there was a mad panic to purchase before this stamp duty holiday ended. 
+
+Forecasting the rolling average with 12 month window helped smooth out some of these trends, but for events that last longer than one year like COVID-19 has, it can be problematic for forecasting.
+
+As time series modelling is so sensitive to recent data, it is imperative that these models be updated regularly (at least quarterly) to ensure modelling errors remain small. 
+
+It may be useful to introduce some exogenous data into the models:
+- Bank of England interest rates
+- COVID-19 infection rates
+- Lockdown events
+
+
+
+
 
 
 
