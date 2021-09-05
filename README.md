@@ -71,6 +71,9 @@ This follows a pattern observed during lockdown where there has been a premium o
 - 4 of the top 5 postcodes with the highest rate of returns are outside what would be considered Central London
 - 4 of the bottom 5 postcodes for rate of return are in central areas and/or close to financial hubs (The City of London or Canary Wharf)
 
+![summary_df.PNG](./Images/summary_df.PNG)
+
+
 There have been multiple things that have occurred in 2020 and 2021 which make house price forecasting challenging, firstly COVID-19 pandemic and its impact on people's working routines and their desire for more space.
 Secondly the government introduced a Stamp Duty (Tax) holiday which, whilst saving money on taxes, actually raised asking prices of homes as there was a mad panic to purchase before this stamp duty holiday ended. 
 
