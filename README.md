@@ -87,6 +87,16 @@ It may be useful to introduce some exogenous data into the models:
 - Lockdown events
 - Number of people returning to office work
 
+### References
+
+1. [Time Series Analysis in Python – A Comprehensive Guide with Examples - Selva Prabhakaran](https://www.machinelearningplus.com/time-series/time-series-analysis-python/)
+2. [COVID Time Series Project by John Johnson](https://github.com/Violet-Spiral)
+3. [How To Predict Time Series by Farhad Malik](https://medium.com/fintechexplained/forecasting-time-series-explained-5cc773b232b6)
+4. [Mapping with Geopandas by Benjamin Cooley](https://towardsdatascience.com/lets-make-a-map-using-geopandas-pandas-and-matplotlib-to-make-a-chloropleth-map-dddc31c1983d)
+5. [Automated Time Series Forecasting by Himanshu Sharma](https://medium.com/mlearning-ai/automating-time-series-forecasting-ae74190408be)
+6. [Forecasting: Principles and Practice, Rob J Hyndman and George Athanasopoulos, Monash University](https://otexts.com/fpp2/)
+
+
 
 
 
